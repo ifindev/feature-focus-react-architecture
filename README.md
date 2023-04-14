@@ -8,7 +8,7 @@ Despite how amazing React is, there are no specific conventions or best practice
 
 Unfortunately, for teams/people that are working on serious applications,this kind of advice is not that helpful since trial & error would end up costing a lot of money and time in the process. What they actually need are a clear and opiniated way to organize their files (i.e. app architecture) as a guidance. So that they can move fast delivering features, without getting stuck forever on deciding what kind of architecture they should use.
 
-After several years working with React and having the same frustration, I decided to open source my own React app architecture which I called a `Feature Focus React Architecture`. This is not a perfect architecture. This is also not a Clean Architecture, the kind of architecture that is used heavily in most backend applications. But I think, this architecture serves the need to provide a nice separation of concerns and also for quickly delivering feature on the Frontend application with React.
+After several years working with React and having the same frustration, I finally came up my own React app architecture which I called a `Feature Focus React Architecture`. This is not a perfect architecture. This is also not a Clean Architecture, the kind of architecture that is used heavily in most backend applications. But I think, this architecture serves the need to provide a nice separation of concerns and also for quickly delivering feature on the Frontend application with React.
 
 These architecture are not entirely created by myself. I have combined and adjusted the file structure from multiple inspirations. From the architecture that is used at my work, and also from several articles as follows:
 
