@@ -83,26 +83,26 @@ This is what I came up with for the **Feature Focus React Architecture**. I have
     │   │       ├── useTranslator.hook.ts
     │   │       └── useTranslator.hook.test.ts
     │   │
-    │   ├──	utils/
-    │   │	   ├── dateFormatter/
-    │   │	   │	  ├── dateFormatter.util.ts
-    │   │	   │	  └── dateFormatter.util.test.ts
-    │   │	   └── toCamelCase/
-    │   │		       ├── toCamelCase.util.ts
-    │   │		       └── toCamelCase.util.test.ts
+    │   ├── utils/
+    │   │   ├── dateFormatter/
+    │   │   │	  ├── dateFormatter.util.ts
+    │   │   │	  └── dateFormatter.util.test.ts
+    │   │   └── toCamelCase/
+    │   │       ├── toCamelCase.util.ts
+    │   │       └── toCamelCase.util.test.ts
     │   │
     │   └── constants/
-    │    	  ├── someConstant.constant.ts
-    │    	  └── anotherConstant.constant.ts
+    │       ├── someConstant.constant.ts
+    │       └── anotherConstant.constant.ts
     │
     ├── configs/
     │   ├── env/
-    │   │	  ├── env.config.ts
-    │   │	  └── env.config.test.ts
+    │   │   ├── env.config.ts
+    │   │   └── env.config.test.ts
     │   │
     │   ├── router/
-    │   │	  ├── router.config.ts
-    │   │	  └── router.config.test.ts
+    │   │   ├── router.config.ts
+    │   │   └── router.config.test.ts
     │   │
     │   └── persist/
     │       ├── persist.config.ts
@@ -171,56 +171,56 @@ This is what I came up with for the **Feature Focus React Architecture**. I have
     │
     ├── features/
     │   ├── Product/
-    │   │	  ├── components/
-    │   │	  │    ├── ProductListTable
-    │   │	  │	   │    ├── ProductListTable.tsx
-    │   │	  │	   │    ├── ProductListTable.test.tsx
-    │   │	  │	   │    └── ProductListTable.stories.tsx
-    │   │	  │    └── CreateProductForm
-    │   │	  │	        ├── CreateProductForm.tsx
-    │   │	  │	        ├── CreateProductForm.test.tsx
-    │   │	  │	        └── CreateProductForm.stories.tsx
-    │   │	  ├── util/
-    │   │	  │    └── someUtil/
-    │   │	  │        ├── someUtil.util.ts
-    │   │	  │        └── someUtil.util.test.ts
-    │   │	  ├── model/
-    │   │	  │    ├── Products.model.ts
-    │   │	  │    └── Discount.model.ts
-    │   │	  ├── hooks/
-    │   │	  │    └── useCreateProductForm
-    │   │	  │        ├── useCreateProductForm.hook.ts
-    │   │	  │        └── useCreateProductForm.hook.test.ts
-    │   │	  └── views/
-    │   │	       ├── CreateProduct/
-    │   │	       │   ├── CreateProduct.view.tsx
-    │   │	       │   ├── CreateProduct.view.test.tsx
-    │   │	       │   ├── CreateProduct.viewModel.tsx
-    │   │	       │   ├── CreateProduct.viewModel.test.tsx
-    │   │	       │   ├── CreateProduct.route.tsx
-    │   │	       │   └── CreateProduct.test.tsx
-    │   │	       └── ProductList/
-    │   │	           ├── ProductList.view.tsx
-    │   │	           ├── ProductList.view.test.tsx
-    │   │	           ├── ProductList.viewModel.tsx
-    │   │	           ├── ProductList.viewModel.test.tsx
-    │   │	           ├── ProductList.route.tsx
-    │   │	           ├── ProductList.test.tsx
-    │   │	           └── views/
-    │   │	                 ├── BestSellerTab
-    │   │	                 └── RecommendebTab
+    │   │   ├── components/
+    │   │   │     ├── ProductListTable
+    │   │   │     │   ├── ProductListTable.tsx
+    │   │   │     │   ├── ProductListTable.test.tsx
+    │   │   │     │   └── ProductListTable.stories.tsx
+    │   │   │     └── CreateProductForm
+    │   │   │         ├── CreateProductForm.tsx
+    │   │   │	        ├── CreateProductForm.test.tsx
+    │   │   │	        └── CreateProductForm.stories.tsx
+    │   │   ├── util/
+    │   │   │    └── someUtil/
+    │   │   │        ├── someUtil.util.ts
+    │   │   │        └── someUtil.util.test.ts
+    │   │   ├── model/
+    │   │   │    ├── Products.model.ts
+    │   │   │    └── Discount.model.ts
+    │   │   ├── hooks/
+    │   │   │    └── useCreateProductForm
+    │   │   │        ├── useCreateProductForm.hook.ts
+    │   │   │        └── useCreateProductForm.hook.test.ts
+    │   │   └── views/
+    │   │       ├── CreateProduct/
+    │   │       │   ├── CreateProduct.view.tsx
+    │   │       │   ├── CreateProduct.view.test.tsx
+    │   │       │   ├── CreateProduct.viewModel.tsx
+    │   │       │   ├── CreateProduct.viewModel.test.tsx
+    │   │       │   ├── CreateProduct.route.tsx
+    │   │       │   └── CreateProduct.test.tsx
+    │   │       └── ProductList/
+    │   │           ├── ProductList.view.tsx
+    │   │           ├── ProductList.view.test.tsx
+    │   │           ├── ProductList.viewModel.tsx
+    │   │           ├── ProductList.viewModel.test.tsx
+    │   │           ├── ProductList.route.tsx
+    │   │           ├── ProductList.test.tsx
+    │   │           └── views/
+    │   │               ├── BestSellerTab
+    │   │               └── RecommendebTab
     │   └── auth/
     │       ├── components/
-    │       │    ├── SignInForm
-    │       │    │	 ├── SignInForm.tsx
-    │       │    │   ├── SignInForm.test.tsx
-    │       │    │   └── SignInForm.stories.tsx
-    │       │    └── SignUpForm
-    │       │	 	     └── ....
+    │       │   ├── SignInForm
+    │       │   │   ├── SignInForm.tsx
+    │       │   │   ├── SignInForm.test.tsx
+    │       │   │   └── SignInForm.stories.tsx
+    │       │   └── SignUpForm
+    │       │       └── ....
     │       ├── util/
-    │       │    └── form/
-    │       │        ├── form.util.ts
-    │       │        └── form.util.test.ts
+    │       │   └── form/
+    │       │       ├── form.util.ts
+    │       │       └── form.util.test.ts
     │       └── ...
     │
     └── index.tsx
