@@ -74,9 +74,9 @@ This is what I came up with for the **Feature Focus React Architecture**. I have
     │   │   │   ├── IconB.tsx
     │   │   │   └── index.ts
     │   │   └── CardContainer/
-    │   │	      ├── CardContainer.tsx
-    │   │	      ├── CardContainer.test.tsx
-    │   │	      └── CardContainer.stories.tsx
+    │   │       ├── CardContainer.tsx
+    │   │       ├── CardContainer.test.tsx
+    │   │       └── CardContainer.stories.tsx
     │   │
     │   ├── hooks/
     │   │   └── useTranslator/
@@ -178,8 +178,8 @@ This is what I came up with for the **Feature Focus React Architecture**. I have
     │   │   │     │   └── ProductListTable.stories.tsx
     │   │   │     └── CreateProductForm
     │   │   │         ├── CreateProductForm.tsx
-    │   │   │	        ├── CreateProductForm.test.tsx
-    │   │   │	        └── CreateProductForm.stories.tsx
+    │   │   │         ├── CreateProductForm.test.tsx
+    │   │   │         └── CreateProductForm.stories.tsx
     │   │   ├── util/
     │   │   │    └── someUtil/
     │   │   │        ├── someUtil.util.ts
